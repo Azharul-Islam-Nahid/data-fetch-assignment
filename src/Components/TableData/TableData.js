@@ -1,9 +1,9 @@
 import React from 'react';
 
-const TableData = () => {
+const TableData = ({ data }) => {
     return (
         <div>
-
+            <h1>data = {data?.length}</h1>
         </div>
     );
 };
